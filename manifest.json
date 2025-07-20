@@ -1,0 +1,13 @@
+{
+    "manifest_version":3,
+    "name":"Title Viewer",
+    "version":"1.0",
+    "description":"Display the title of current tab in popup",
+    "permissions":["tabs"],
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"icon_title.png"
+
+    },"host_permissions":["<all_urls>"]
+
+}
